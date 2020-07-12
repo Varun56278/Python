@@ -1,0 +1,29 @@
+Show databases;
+create database name;
+drop database name;
+use name;
+selct database();
+create table students;
+show table;
+desc students;
+drop table students;
+SELECT * FROM students;
+my.cursor.fetchall()
+SELECT age FROM students;
+mycursor.fetchone()
+SELECT * FROM where age =17;
+mycursor.fetchall()
+
+sql = "update students SET age = 13 WHERE name = 'BOB'"
+mycursor.execute(sql)
+
+mycursor.execute("SELECT * FROM students LIMIT 5")
+mycursor.fetchall()
+
+SELECT * FROM students ORDER BY name
+mycursor.fetchall()
+
+sql = "DELETE FROM students WHERE age = 13"
+sql = "DELETE FROM students WHERE name = sachin"
+
+"DROP TABLE students"
